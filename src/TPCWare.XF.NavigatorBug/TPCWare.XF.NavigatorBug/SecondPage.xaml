@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TPCWare.XF.NavigatorBug.SecondPage">
+
+    <StackLayout Padding="20,100" Spacing="80">
+
+        <Label Text="This is the second page"
+               HorizontalOptions="CenterAndExpand" />
+
+        <Button Text="Go to third page"
+                Clicked="GoNextPageButton_Clicked" />
+
+    </StackLayout>
+</ContentPage>
